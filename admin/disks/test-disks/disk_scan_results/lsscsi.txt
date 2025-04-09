@@ -1,0 +1,5 @@
+[0:0:0:0]    disk    ATA      Samsung SSD 870  1B6Q  /dev/sda 
+[1:0:0:0]    disk    ATA      WDC WD30EFRX-68E 0A80  /dev/sdb 
+[2:0:0:0]    disk    ATA      WDC WD30EFRX-68E 0A80  /dev/sdc 
+[6:0:0:0]    disk    WD       Elements 1023    2005  /dev/sdd 
+[8:0:0:0]    disk    WD       My Book          1028  /dev/sdf 

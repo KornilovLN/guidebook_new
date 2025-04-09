@@ -1,0 +1,11 @@
+Drives:    Local Storage: total: 7.96 TiB used: 1.20 TiB (15.1%) 
+           ID-1: /dev/sda vendor: Samsung model: SSD 870 QVO 1TB size: 931.51 GiB speed: 6.0 Gb/s 
+           serial: S5SVNF0R482336A 
+           ID-2: /dev/sdb vendor: Western Digital model: WD30EFRX-68EUZN0 size: 2.73 TiB 
+           speed: 3.0 Gb/s serial: WD-WMC4N1931146 temp: 28 C 
+           ID-3: /dev/sdc vendor: Western Digital model: WD30EFRX-68EUZN0 size: 2.73 TiB 
+           speed: 3.0 Gb/s serial: WD-WMC4N1934279 temp: 27 C 
+           ID-4: /dev/sdd type: USB vendor: Western Digital model: WD7500KMVV-11BG7S0 
+           size: 698.63 GiB serial: WD-WX31A70X6060 
+           ID-5: /dev/sdf type: USB vendor: Western Digital model: WD10EADS-00L5B1 size: 931.51 GiB 
+           serial: WD-WCAU4A075768 
