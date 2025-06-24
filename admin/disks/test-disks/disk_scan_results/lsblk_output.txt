@@ -1,46 +1,46 @@
 NAME                SIZE FSTYPE            TYPE  MOUNTPOINT                   MODEL
-loop0               1,2G squashfs          loop  /snap/android-studio/161     
-loop1               1,4G squashfs          loop  /snap/android-studio/187     
+loop0               1,4G squashfs          loop  /snap/android-studio/187     
+loop1               1,4G squashfs          loop  /snap/android-studio/189     
 loop2                 4K squashfs          loop  /snap/bare/5                 
 loop3               356K squashfs          loop  /snap/bpytop/284             
-loop4               1,8M squashfs          loop  /snap/btop/816               
-loop5              66,2M squashfs          loop  /snap/core24/716             
-loop6               4,1M squashfs          loop  /snap/chromium-ffmpeg/69     
-loop7               1,8M squashfs          loop  /snap/btop/830               
-loop8              55,4M squashfs          loop  /snap/core18/2846            
-loop9              13,9M squashfs          loop  /snap/httpie/474             
-loop10            505,1M squashfs          loop  /snap/gnome-42-2204/176      
-loop11            206,9M squashfs          loop  /snap/flutter/149            
-loop12            170,1M squashfs          loop  /snap/opera/366              
+loop4               356K squashfs          loop  /snap/bpytop/279             
+loop5               1,8M squashfs          loop  /snap/btop/836               
+loop6               1,8M squashfs          loop  /snap/btop/845               
+loop7             104,2M squashfs          loop  /snap/core/17200             
+loop8              63,8M squashfs          loop  /snap/core20/2501            
+loop9              63,8M squashfs          loop  /snap/core20/2496            
+loop10             73,9M squashfs          loop  /snap/core22/1908            
+loop11              516M squashfs          loop  /snap/gnome-42-2204/202      
+loop12            121,9M squashfs          loop  /snap/kotlin/87              
 loop13             91,7M squashfs          loop  /snap/gtk-common-themes/1535 
-loop14            182,3M squashfs          loop  /snap/skype/390              
-loop15             66,2M squashfs          loop  /snap/core24/739             
-loop16            206,3M squashfs          loop  /snap/flutter/145            
-loop17            121,9M squashfs          loop  /snap/kotlin/87              
-loop18            164,8M squashfs          loop  /snap/gnome-3-28-1804/198    
-loop19             31,4M squashfs          loop  /snap/node/9971              
-loop20            182,3M squashfs          loop  /snap/skype/392              
-loop21            123,6M squashfs          loop  /snap/slack/194              
+loop14              8,2M squashfs          loop  /snap/chromium-ffmpeg/76     
+loop15             31,4M squashfs          loop  /snap/node/9971              
+loop16            206,9M squashfs          loop  /snap/flutter/149            
+loop17            171,1M squashfs          loop  /snap/opera/370              
+loop18             13,9M squashfs          loop  /snap/httpie/474             
+loop19             85,6M squashfs          loop  /snap/fbreader/31            
+loop20            505,1M squashfs          loop  /snap/gnome-42-2204/176      
+loop21            171,2M squashfs          loop  /snap/opera/371              
 loop22             31,4M squashfs          loop  /snap/node/9796              
-loop23             63,7M squashfs          loop  /snap/core20/2434            
-loop24            123,6M squashfs          loop  /snap/slack/195              
-loop25            104,2M squashfs          loop  /snap/core/17200             
-loop26              104M squashfs          loop  /snap/core/16928             
-loop27             55,4M squashfs          loop  /snap/core18/2855            
-loop28              356K squashfs          loop  /snap/bpytop/279             
-loop29            218,4M squashfs          loop  /snap/gnome-3-34-1804/93     
-loop30             63,8M squashfs          loop  /snap/core20/2496            
-loop31              7,1M squashfs          loop  /snap/chromium-ffmpeg/73     
-loop32             85,6M squashfs          loop  /snap/fbreader/31            
-loop33              516M squashfs          loop  /snap/gnome-42-2204/202      
-loop34            122,3M squashfs          loop  /snap/kotlin/88              
-loop35             73,9M squashfs          loop  /snap/core22/1748            
-loop36             44,4M squashfs          loop  /snap/snapd/23545            
-loop37             85,4M squashfs          loop  /snap/fbreader/30            
-loop38             44,5M squashfs          loop  /snap/snapd/23771            
-loop39            349,7M squashfs          loop  /snap/gnome-3-38-2004/143    
-loop40            170,1M squashfs          loop  /snap/opera/367              
-loop41             73,9M squashfs          loop  /snap/core22/1802            
+loop23            182,3M squashfs          loop  /snap/skype/390              
+loop24            123,6M squashfs          loop  /snap/slack/196              
+loop25            218,4M squashfs          loop  /snap/gnome-3-34-1804/93     
+loop26             44,5M squashfs          loop  /snap/snapd/23771            
+loop27             55,4M squashfs          loop  /snap/core18/2846            
+loop28            123,6M squashfs          loop  /snap/slack/195              
+loop29            122,3M squashfs          loop  /snap/kotlin/88              
+loop30             66,2M squashfs          loop  /snap/core24/739             
+loop31             44,4M squashfs          loop  /snap/snapd/23545            
+loop32              104M squashfs          loop  /snap/core/16928             
+loop33            349,7M squashfs          loop  /snap/gnome-3-38-2004/143    
+loop34             85,4M squashfs          loop  /snap/fbreader/30            
+loop35            182,3M squashfs          loop  /snap/skype/392              
+loop36             73,9M squashfs          loop  /snap/core22/1802            
+loop37              7,1M squashfs          loop  /snap/chromium-ffmpeg/73     
+loop38            206,3M squashfs          loop  /snap/flutter/145            
+loop39             66,8M squashfs          loop  /snap/core24/888             
+loop40            164,8M squashfs          loop  /snap/gnome-3-28-1804/198    
+loop41             55,4M squashfs          loop  /snap/core18/2855            
 sda               931,5G                   disk                               Samsung_SSD_870_QVO_1TB
 ├─sda1              512M vfat              part  /boot/efi                    
 ├─sda2                1K                   part                               
@@ -49,7 +49,7 @@ sda               931,5G                   disk                               Sa
   └─vgmint-swap_1   976M swap              lvm   [SWAP]                       
 sdb                 2,7T                   disk                               WDC_WD30EFRX-68EUZN0
 ├─sdb1            976,6G linux_raid_member part                               
-│ └─md126         976,4G LVM2_member       raid1                              
+│ └─md0           976,4G LVM2_member       raid1                              
 │   └─vg1-lv1       250G ext4              lvm                                
 └─sdb2              1,8T linux_raid_member part                               
   └─md127           1,8T LVM2_member       raid1                              
@@ -57,13 +57,10 @@ sdb                 2,7T                   disk                               WD
     └─vg2-poligon     1T ext4              lvm   /mnt/poligon                 
 sdc                 2,7T                   disk                               WDC_WD30EFRX-68EUZN0
 ├─sdc1            976,6G linux_raid_member part                               
-│ └─md126         976,4G LVM2_member       raid1                              
+│ └─md0           976,4G LVM2_member       raid1                              
 │   └─vg1-lv1       250G ext4              lvm                                
 └─sdc2              1,8T linux_raid_member part                               
   └─md127           1,8T LVM2_member       raid1                              
     ├─vg2-lv1       250G ext4              lvm                                
     └─vg2-poligon     1T ext4              lvm   /mnt/poligon                 
-sdd               698,7G                   disk                               WDC_WD7500KMVV-11BG7S0
-└─sdd1            698,6G ntfs              part                               
-sdf               931,5G                   disk                               WDC_WD10EADS-00L5B1
-└─sdf1            931,5G vfat              part  /media/leon/MY BOOK          
+sdd               931,5G                   disk                               WDC_WD10EADS-00L5B1

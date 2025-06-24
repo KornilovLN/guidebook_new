@@ -1,0 +1,6 @@
+  LV      VG     Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  lv1     vg1    -wi-a----- 250,00g                                                    
+  lv1     vg2    -wi-a----- 250,00g                                                    
+  poligon vg2    -wi-ao----   1,00t                                                    
+  root    vgmint -wi-ao---- 930,05g                                                    
+  swap_1  vgmint -wi-ao---- 976,00m                                                    

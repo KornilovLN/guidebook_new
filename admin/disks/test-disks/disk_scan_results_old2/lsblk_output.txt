@@ -1,0 +1,67 @@
+NAME                SIZE FSTYPE            TYPE  MOUNTPOINT                   MODEL
+loop0               1,4G squashfs          loop  /snap/android-studio/187     
+loop1               1,4G squashfs          loop  /snap/android-studio/189     
+loop2               356K squashfs          loop  /snap/bpytop/284             
+loop3               1,8M squashfs          loop  /snap/btop/836               
+loop4             104,2M squashfs          loop  /snap/core/17200             
+loop5               7,1M squashfs          loop  /snap/chromium-ffmpeg/73     
+loop6               1,8M squashfs          loop  /snap/btop/845               
+loop7               8,2M squashfs          loop  /snap/chromium-ffmpeg/76     
+loop8              63,8M squashfs          loop  /snap/core20/2501            
+loop9                 4K squashfs          loop  /snap/bare/5                 
+loop10              104M squashfs          loop  /snap/core/16928             
+loop11             66,8M squashfs          loop  /snap/core24/888             
+loop12             55,4M squashfs          loop  /snap/core18/2846            
+loop13            171,1M squashfs          loop  /snap/opera/370              
+loop14            349,7M squashfs          loop  /snap/gnome-3-38-2004/143    
+loop15            182,3M squashfs          loop  /snap/skype/390              
+loop16             31,4M squashfs          loop  /snap/node/9971              
+loop17              516M squashfs          loop  /snap/gnome-42-2204/202      
+loop18            123,6M squashfs          loop  /snap/slack/195              
+loop19            122,3M squashfs          loop  /snap/kotlin/88              
+loop20             31,4M squashfs          loop  /snap/node/9796              
+loop21             55,4M squashfs          loop  /snap/core18/2855            
+loop22             63,8M squashfs          loop  /snap/core20/2496            
+loop23             44,4M squashfs          loop  /snap/snapd/23545            
+loop24            123,6M squashfs          loop  /snap/slack/196              
+loop25             85,6M squashfs          loop  /snap/fbreader/31            
+loop26            206,9M squashfs          loop  /snap/flutter/149            
+loop27            206,3M squashfs          loop  /snap/flutter/145            
+loop28            182,3M squashfs          loop  /snap/skype/392              
+loop29            121,9M squashfs          loop  /snap/kotlin/87              
+loop30             66,2M squashfs          loop  /snap/core24/739             
+loop31              356K squashfs          loop  /snap/bpytop/279             
+loop32            171,2M squashfs          loop  /snap/opera/371              
+loop33            164,8M squashfs          loop  /snap/gnome-3-28-1804/198    
+loop34             73,9M squashfs          loop  /snap/core22/1802            
+loop35            218,4M squashfs          loop  /snap/gnome-3-34-1804/93     
+loop36             91,7M squashfs          loop  /snap/gtk-common-themes/1535 
+loop37             44,5M squashfs          loop  /snap/snapd/23771            
+loop38             13,9M squashfs          loop  /snap/httpie/474             
+loop39             73,9M squashfs          loop  /snap/core22/1908            
+loop40            505,1M squashfs          loop  /snap/gnome-42-2204/176      
+loop41             85,4M squashfs          loop  /snap/fbreader/30            
+sda               931,5G                   disk                               Samsung_SSD_870_QVO_1TB
+├─sda1              512M vfat              part  /boot/efi                    
+├─sda2                1K                   part                               
+└─sda5              931G LVM2_member       part                               
+  ├─vgmint-root   930,1G ext4              lvm   /                            
+  └─vgmint-swap_1   976M swap              lvm   [SWAP]                       
+sdb                 2,7T                   disk                               WDC_WD30EFRX-68EUZN0
+├─sdb1            976,6G linux_raid_member part                               
+│ └─md127         976,4G LVM2_member       raid1                              
+│   └─vg1-lv1       250G ext4              lvm                                
+└─sdb2              1,8T linux_raid_member part                               
+  └─md126           1,8T LVM2_member       raid1                              
+    ├─vg2-lv1       250G ext4              lvm                                
+    └─vg2-poligon     1T ext4              lvm   /mnt/poligon                 
+sdc                 2,7T                   disk                               WDC_WD30EFRX-68EUZN0
+├─sdc1            976,6G linux_raid_member part                               
+│ └─md127         976,4G LVM2_member       raid1                              
+│   └─vg1-lv1       250G ext4              lvm                                
+└─sdc2              1,8T linux_raid_member part                               
+  └─md126           1,8T LVM2_member       raid1                              
+    ├─vg2-lv1       250G ext4              lvm                                
+    └─vg2-poligon     1T ext4              lvm   /mnt/poligon                 
+sdd               931,5G                   disk                               WDC_WD1003FBYX-01Y7B1
+sde               931,5G                   disk                               WDC_WD10EADS-00L5B1

@@ -1,4 +1,4 @@
   PV         VG     Fmt  Attr PSize    PFree   
-  /dev/md126 vg1    lvm2 a--   976,43g  726,43g
+  /dev/md0   vg1    lvm2 a--   976,43g  726,43g
   /dev/md127 vg2    lvm2 a--    <1,78t <543,83g
   /dev/sda5  vgmint lvm2 a--  <931,01g       0 

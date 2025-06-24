@@ -1,0 +1,2 @@
+ARRAY /dev/md/starmark-GA-890GPA-UD3H:0 metadata=1.2 name=starmark-GA-890GPA-UD3H:0 UUID=fed3ad56:3d1231a4:5c1ebabc:b584ad9e
+ARRAY /dev/md/starmark-GA-890GPA-UD3H:1 metadata=1.2 name=starmark-GA-890GPA-UD3H:1 UUID=fd1e7523:ebe32399:e91a4d3a:d07bf190

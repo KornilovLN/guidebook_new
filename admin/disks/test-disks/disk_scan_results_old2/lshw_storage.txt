@@ -1,0 +1,89 @@
+  *-sata
+       описание: SATA controller
+       продукт: 7 Series/C210 Series Chipset Family 6-port SATA Controller [AHCI mode]
+       производитель: Intel Corporation
+       физический ID: 1f.2
+       сведения о шине: pci@0000:00:1f.2
+       версия: 04
+       разрядность: 32 bits
+       частота: 66MHz
+       возможности: sata msi pm ahci_1.0 bus_master cap_list
+       конфигурация: driver=ahci latency=0
+       ресурсы: IRQ:29 ioport:f0b0(размер=8) ioport:f0a0(размер=4) ioport:f090(размер=8) ioport:f080(размер=4) ioport:f060(размер=32) память:f7d16000-f7d167ff
+  *-scsi:0
+       физический ID: b
+       логическое имя: scsi0
+       возможности: emulated
+     *-disk
+          описание: ATA Disk
+          продукт: Samsung SSD 870
+          физический ID: 0.0.0
+          сведения о шине: scsi@0:0.0.0
+          логическое имя: /dev/sda
+          версия: 1B6Q
+          серийный №: S5SVNF0R482336A
+          размер: 931GiB (1TB)
+          возможности: partitioned partitioned:dos
+          конфигурация: ansiversion=5 logicalsectorsize=512 sectorsize=512 signature=9daf2848
+  *-scsi:1
+       физический ID: c
+       логическое имя: scsi1
+       возможности: emulated
+     *-disk
+          описание: ATA Disk
+          продукт: WDC WD30EFRX-68E
+          производитель: Western Digital
+          физический ID: 0.0.0
+          сведения о шине: scsi@1:0.0.0
+          логическое имя: /dev/sdb
+          версия: 0A80
+          серийный №: WD-WMC4N1931146
+          размер: 2794GiB (3TB)
+          возможности: gpt-1.00 partitioned partitioned:gpt
+          конфигурация: ansiversion=5 guid=35eca392-be76-40b8-92c5-5173f43ec3c7 logicalsectorsize=512 sectorsize=4096
+  *-scsi:2
+       физический ID: d
+       логическое имя: scsi2
+       возможности: emulated
+     *-disk
+          описание: ATA Disk
+          продукт: WDC WD30EFRX-68E
+          производитель: Western Digital
+          физический ID: 0.0.0
+          сведения о шине: scsi@2:0.0.0
+          логическое имя: /dev/sdc
+          версия: 0A80
+          серийный №: WD-WMC4N1934279
+          размер: 2794GiB (3TB)
+          возможности: gpt-1.00 partitioned partitioned:gpt
+          конфигурация: ansiversion=5 guid=5f6762f6-1aa2-4750-8e5d-7202da7cde52 logicalsectorsize=512 sectorsize=4096
+  *-scsi:3
+       физический ID: e
+       логическое имя: scsi3
+       возможности: emulated
+     *-disk
+          описание: ATA Disk
+          продукт: WDC WD1003FBYX-0
+          производитель: Western Digital
+          физический ID: 0.0.0
+          сведения о шине: scsi@3:0.0.0
+          логическое имя: /dev/sdd
+          версия: 1V02
+          серийный №: WD-WCAW34697377
+          размер: 931GiB (1TB)
+          конфигурация: ansiversion=5 logicalsectorsize=512 sectorsize=512 signature=9201154b
+  *-scsi:4
+       физический ID: f
+       логическое имя: scsi5
+       возможности: emulated
+     *-disk
+          описание: ATA Disk
+          продукт: WDC WD10EADS-00L
+          производитель: Western Digital
+          физический ID: 0.0.0
+          сведения о шине: scsi@5:0.0.0
+          логическое имя: /dev/sde
+          версия: 1A01
+          серийный №: WD-WCAU49276761
+          размер: 931GiB (1TB)
+          конфигурация: ansiversion=5 logicalsectorsize=512 sectorsize=512 signature=8efe8f00
