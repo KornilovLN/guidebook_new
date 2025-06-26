@@ -126,3 +126,9 @@ ls -ld /home/starter/forgejo/data
 
 Ваша конфигурация полностью готова к работе! После начальной настройки в веб-интерфейсе вы сможете создавать репозитории и работать с ними через Git.
 New chat
+
+## Отправка
+```bash
+git remote add origin http://localhost:3000/starmark/pi-calc.git
+git push -u origin main
+```
